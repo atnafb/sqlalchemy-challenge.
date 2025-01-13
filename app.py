@@ -110,7 +110,7 @@ def tobs():
     return jsonify(temp_list)
 
 
-# The SON list of the minimum temperature, the average temperature, and the maximum temperature 
+# The JSON list of the minimum temperature, the average temperature, and the maximum temperature 
 # for a specified start or start-end range.
 @app.route("/api/v1.0/start_end")
 def dateStates():
